@@ -1,0 +1,107 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+.cs-btn {
+    border-radius: 20px;
+    color: white;
+}
+
+    .cs-btn:hover {
+        box-shadow: 0 3px 7px 0 rgba(0,123,225,0.8);
+        color: white;
+    }
+
+.cs-btn-green {
+    border-radius: 25px;
+    background-image: linear-gradient(to top, #0fd850 0%, #00f24e 100%);
+    color: white;
+}
+
+    .cs-btn-green:hover {
+        box-shadow: 0 3px 7px 0 rgba(15, 216, 80, 1.0);
+        color: white;
+    }
+
+.cs-btn-danger {
+    border-radius: 25px;
+    background: #FF416C; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+    .cs-btn-danger:hover {
+        box-shadow: 0 3px 7px 0 rgba(255, 65, 108, 1.0);
+        color: white;
+    }
+
+.cs-tab-line-out {
+    border-bottom: 0px solid #fff !important;
+}
+
+.cs-tab {
+    border: 0px solid #fff !important;
+    border-radius: 20px !important;
+}
+
+    .cs-tab:hover {
+        box-shadow: 0 3px 7px 0 rgba(229,229,229,0.8);
+    }
+
+
+.cs-card {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.cs-t1 {
+    width: 215px !important;
+}
+
+.cs-t2 {
+    width: 100px !important;
+}
+
+.cs-tb-pad td {
+    padding: 5px !important;
+}
+
+.swal-button {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 13rem;
+    text-transform: capitalize;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to right, #0072ff, #008cff);
+    background: linear-gradient(to right, #0072ff, #008cff);
+    border-radius: 05px 05px 05px 05px;
+    -moz-border-radius: 05px 05px 05px 05px;
+    -webkit-border-radius: 05px 05px 05px 05px;
+    border: 0px solid #000000;
+}
+
+.swal-overlay {
+    background-color: rgba(0, 0, 0, 0.63) !important;
+}
+
+.badge {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+/*.modal{
+    display: block !important;
+}
+.modal-dialog{
+      overflow-y: initial !important
+}
+.modal-body{
+  height: 250px;
+  overflow-y: auto;
+}*/

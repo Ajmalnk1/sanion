@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Prata);
+
+@import url(https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800);
+$black:#373737;
+$violet:#9f70ad;
+$back:#F9f9f9;
+$blue:#7a63a7;
+$green:#5D9D04;
+
+.full-body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.font-styles {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  letter-spacing: normal;
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+}
+/*::selection {
+    background: #ffc84c;
+    /* WebKit/Blink Browsers
+}
+
+::-moz-selection {
+    background: #ffc84c;
+    /* Gecko Browsers
+}*/
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body,
+section {
+  @extend .full-body;
+  background-color: #fff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.zoom {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  overflow: hidden;
+}
+////////
